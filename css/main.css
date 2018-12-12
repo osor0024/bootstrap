@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+header {
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    overflow-x: hidden;
+    background-color: #9d8f8f;
+}
+
+img.col-12 {
+    max-width: 10rem;
+}
+
+img.col-lg-12.rounded-circle {
+    
+    max-width: 20rem;
+/*   border-radius: 232px;*/
+  /* 50%/50% */
+  padding: 0.5rem;
+  background-color: rgba(188,186,184,.5);
+  border: 1rem solid rgb(157,143,143, .5);
+   
+}
+
+header > img {
+    /*
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+*/
+
+
+}
+
+header h2 {
+    margin-bottom: 0rem;
+}
+
+.mainbar {
+    /*    https://www.pexels.com/photo/nescafe-cup-near-imac-225502/*/
+    background-image: url("../img/apple-apple-magic-keyboard-coffee-225502.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mainbar::before {
+    background-image: url("../img/Midnight%20City.jpg");
+}
+
+.dos {
+    /*    https://www.pexels.com/photo/selective-focus-photography-crystals-stones-753416/*/
+    background-image: url("../img/amethyst-black-and-white-carat-753416.jpg");
+    background-blend-mode: saturation;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 40vh;
+    border-bottom: solid grey 2rem;
+    margin-bottom: 4rem;
+}
+
+.tres {
+    /*https://www.pexels.com/photo/woman-in-white-blazer-holding-tablet-computer-789822/*/
+    background-image: url("../img/businesswoman-call-career-789822.jpg");
+    background-blend-mode: saturation;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 20rem;
+}
+
+.navbar {
+    background-color: #202324;
+
+}
+
+#navbarTogglerDemo02 {
+    /*    padding-left: 20rem;*/
+    align-content: flex-end;
+}
+
+h1 {
+    margin: 0;
+}
+
+footer i {
+    font-size: 2rem;
+}
+
+
+.row.first,
+.second,
+.third,
+.fourth {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    /*    height: 50%;*/
+
+}
+
+.first::before {
+    /*    border-top: solid 2rem #B98289;*/
+    position: absolute;
+    content: "";
+    display: block;
+    z-index: -1;
+    top: 0;
+    left: -200rem;
+    right: -200rem;
+    bottom: 0rem;
+
+    background-color: #9d8f8f;
+
+}
+
+span img {
+    width: 2rem;
+}
+
+.second::before {
+    position: absolute;
+    content: " ";
+    display: block;
+    z-index: -1;
+    top: 0rem;
+    left: -200rem;
+    right: -200rem;
+    bottom: 0rem;
+    background: #bcbab8;
+
+}
+
+
+.third::before {
+    position: absolute;
+    content: " ";
+    display: block;
+    z-index: -1;
+    top: 0rem;
+    left: -200rem;
+    right: -200rem;
+    bottom: 0rem;
+    background-color: #9d8f8f;
+}
+
+.fourth::before {
+    position: absolute;
+    content: " ";
+    display: block;
+    z-index: -1;
+    top: 0rem;
+    left: -200rem;
+    right: -200rem;
+    bottom: 0rem;
+    background-color: #625757;
+    /*    background-color: #E2F2F1;*/
+
+    background: #e2e2e2;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e2e2e2 0%, #d1d1d1 0%, #fefefe 87%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e2e2e2 0%, #d1d1d1 0%, #fefefe 87%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e2e2e2 0%, #d1d1d1 0%, #fefefe 87%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0);
+    /* IE6-9 */
+}
+
+/*
+div img{
+     filter: grayscale(100%);
+}
+*/
+footer {
+    /*    background-color:#202324; */
+    border-top: solid 2rem #bcbab8;
+    padding: 1em;
+    text-align: center;
+    background-image: url("../img/Midnight%20City.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 30vh;
+    
+}
+footer p{
+    color:#9d8f8f;
+    font-size: 1.6rem;
+}
+
+thumbnails:hover {
+    transform: scale(1.1);
+}
+
+img.bootsrapt {
+    filter: grayscale(100%);
+}
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0;
+  width: 23px;
+  height: 23px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  z-index: 9;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 4s ease-in-out infinite;
+	-moz-animation:    fade_move_down 4s ease-in-out infinite;
+	animation:         fade_move_down 4s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+
+/*
+#section02 a span 
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+#section02 a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+#section02 a {
+    padding-top: 70px;
+}
+
+#section02 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb05 1.5s infinite;
+    animation: sdb05 1.5s infinite;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb02 {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+@keyframes sdb05 {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+*/
+
+/*
+.row:nth-child(odd)::before{
+  content: "";
+  background-color: #da55;
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left: -500px;
+  right: -500px;
+}
+.row{
+  margin: 0;
+  padding: 3rem 5rem;
+}*/
