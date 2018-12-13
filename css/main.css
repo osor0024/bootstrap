@@ -25,8 +25,13 @@ img.col-12 {
     color: #bcbab8;
 }
 
-img.col-lg-12.rounded-circle {
+.nat {
+/*    color:#DE7777 ;*/
+    text-shadow: 3px 3px black;
+}
 
+.imgme {
+    width: 50%;
     max-width: 20rem;
     /*   border-radius: 232px;*/
     /* 50%/50% */
@@ -84,6 +89,7 @@ header h2 {
 h1 {
     margin: 0;
 }
+
 footer i {
     font-size: 2rem;
 }
@@ -128,6 +134,15 @@ span img {
     right: -200rem;
     bottom: 0rem;
     background: #bcbab8;
+    background: #e2e2e2;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e2e2e2 0%, #d1d1d1 0%, #fefefe 87%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e2e2e2 0%, #d1d1d1 0%, #fefefe 87%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e2e2e2 0%, #d1d1d1 0%, #fefefe 87%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0);
 
 }
 
@@ -173,6 +188,19 @@ div img{
      filter: grayscale(100%);
 }
 */
+.card.shadow.rounded {
+    background: #e2e2e2;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e2e2e2 0%, #d1d1d1 0%, #fefefe 87%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e2e2e2 0%, #d1d1d1 0%, #fefefe 87%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e2e2e2 0%, #d1d1d1 0%, #fefefe 87%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0);
+    /* IE6-9 */
+}
+
 footer {
     /*    background-color:#202324; */
     border-top: solid 2rem #bcbab8;
@@ -207,6 +235,7 @@ img.bootsrapt {
     filter: grayscale(100%);
 }
 
+/*
 .scroll-down {
     position: absolute;
     left: 50%;
@@ -230,9 +259,11 @@ img.bootsrapt {
     -moz-animation: fade_move_down 4s ease-in-out infinite;
     animation: fade_move_down 4s ease-in-out infinite;
 }
+*/
 
 
-/*animated scroll arrow animation*/
+/*
+animated scroll arrow animation
 @-webkit-keyframes fade_move_down {
     0% {
         -webkit-transform: translate(0, -10px) rotate(45deg);
@@ -280,6 +311,7 @@ img.bootsrapt {
         opacity: 0;
     }
 }
+*/
 
 /*
 #section02 a span 
