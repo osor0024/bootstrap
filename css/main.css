@@ -56,11 +56,10 @@ header h2 {
 .dos {
     /*    https://www.pexels.com/photo/selective-focus-photography-crystals-stones-753416/*/
     background-image: url("../img/Midnight%20City.jpg");
-    background-blend-mode: saturation;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 40vh;
+    min-height: 50vh;
 }
 
 .tres {
@@ -69,7 +68,7 @@ header h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 40vh;
+    min-height: 50vh;
 }
 
 .navbar {
@@ -85,11 +84,6 @@ header h2 {
 h1 {
     margin: 0;
 }
-/*
-.fti{
-    max-width: 58rem;
-}
-*/
 footer i {
     font-size: 2rem;
 }
@@ -116,7 +110,6 @@ footer i {
     left: -200rem;
     right: -200rem;
     bottom: 0rem;
-
     background-color: #9d8f8f;
 
 }
