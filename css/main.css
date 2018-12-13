@@ -13,7 +13,7 @@ html, body {
     font-family: 'Roboto Slab', serif;
     overflow-x: hidden;
      margin: auto;
-/*    display:block;*/
+    display:block;
 /*    background-color: #9d8f8f;*/
 }
 .body2{
