@@ -9,7 +9,7 @@ header {
 
 }
 
-body {
+html, body {
     font-family: 'Roboto Slab', serif;
     overflow-x: hidden;
      margin: auto;
