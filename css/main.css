@@ -57,6 +57,12 @@ header h2 {
     background-repeat: no-repeat;
     background-position: center;
 }
+.insertIMG{
+    background-image: url("../img/mywork.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .mainbar::before {
     background-image: url("../img/Midnight%20City.jpg");
@@ -64,11 +70,11 @@ header h2 {
 
 .dos {
     /*    https://www.pexels.com/photo/selective-focus-photography-crystals-stones-753416/*/
-    background-image: url("../img/Midnight%20City.jpg");
+    background-image: url("../img/mywork2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 50vh;
+    min-height: 80vh;
 }
 
 .tres {
@@ -93,7 +99,11 @@ header h2 {
 h1 {
     margin: 0;
 }
-
+.titlesSection
+{
+text-align: center;
+padding: 1.5rem;
+}
 footer i {
     font-size: 2rem;
 }
