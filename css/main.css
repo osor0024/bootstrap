@@ -250,6 +250,9 @@ img.bootsrapt {
     filter: grayscale(100%);
 }
 
+a{
+cursor: pointer;
+}
 /*
 .scroll-down {
     position: absolute;
