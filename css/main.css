@@ -127,18 +127,25 @@ footer i {
     content: "";
     display: block;
     z-index: -1;
+       /* height: 1000%; */
     top: 0;
     left: -200rem;
     right: -200rem;
     bottom: 0rem;
     background-color: #9d8f8f;
-
 }
-
 span img {
     width: 2rem;
 }
+#section01,
+#section02{
+min-height: 30rem;
+max-height: 60rem;
+}
 
+.ptool{
+    font-size: 18px;
+}
 .second::before {
     position: absolute;
     content: " ";
@@ -252,6 +259,10 @@ img.bootsrapt {
 
 a{
 cursor: pointer;
+}
+.lang-img{
+    max-width: 4rem;
+    min-width: 2rem;;
 }
 /*
 .scroll-down {
